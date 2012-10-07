@@ -1,6 +1,5 @@
 #include <cstdlib>
 #include <iostream>
- //to pause screen
 #include "main.h"
 
 using namespace std;
