@@ -57,25 +57,7 @@ do{
            default:
                 cout << "That is an incorrect selection. Please try again.";
                 pause();
+                break;
                 }
     }while(quit == 1);
 }
-
-/*
-int main()
-{
-	clear();
-	//int id;
-	char firstName[20] = " ";
-	//char lastName[20];
-	//cin.clear();
-	cout << endl;
-	cout << "Add a Customer" << endl;
-	cout << "Name: ";
-	cin.getline(firstName, 20);
-	//cout << endl;
-	cout << "You said: " << firstName;
-	pause();
-
-}
-*/
