@@ -42,8 +42,8 @@ local.properties
 *.sln.docstates
 
 # Build results
-Debug
-*.exe
+[Dd]ebug/
+[Rr]elease/
 *_i.c
 *_p.c
 *.ilk
