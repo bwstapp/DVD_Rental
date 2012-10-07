@@ -14,7 +14,7 @@ void addCustomer();
 void editCustomer();
 void viewCustomer();
 
-void customer()
+void customer() // main menu for the customer functions
 {
      int quit = 1;
      int answer;
@@ -50,7 +50,7 @@ void customer()
      }
 
 
-     void addCustomer()
+     void addCustomer() // used to add a new customer to the customer database
      {
     	clear();
     	int id = 0;
@@ -69,12 +69,12 @@ void customer()
     	cout << endl;getchar();
      }
 
-     void editCustomer()
+     void editCustomer() //used to pull customer info from the database and edit it
      {
     	inDev();
      }
 
-     void viewCustomer()
+     void viewCustomer() // used to view all customer information
      {
     	 inDev();
      }
