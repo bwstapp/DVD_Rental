@@ -1,5 +1,6 @@
 #include <cstdlib>
 #include <iostream>
+ //to pause screen
 #include "main.h"
 
 using namespace std;
@@ -53,18 +54,20 @@ void customer()
      void addCustomer()
      {
     	clear();
-    	//int id;
-    	char firstName[200] = " ";
-    	//char lastName[20];
-    	//cin.clear();
+    	int id = 0;
+    	char firstName[20] = " ";
+    	char lastName[20] = " ";
     	cout << endl;
     	cout << "Add a Customer" << endl;
-    	cout << "Name: ";
+    	cout << "ID #: ";
+    	cin >> id;
+    	cout << "First Name: ";
     	cin.ignore();
     	cin.getline(firstName, 200);
-    	//cout << endl;
-    	cout << "You said: " << firstName;
-    	pause();
+    	cout << "Last Name: ";
+    	cin.getline(lastName, 20);
+    	cout << "Customer #" << id << "'s name is: " << firstName << " " << lastName;
+    	cout << endl;getchar();
      }
 
      void editCustomer()
