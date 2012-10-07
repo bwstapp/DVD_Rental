@@ -62,7 +62,7 @@ void customer()
     	cin >> id;
     	cout << "First Name: ";
     	cin.ignore();
-    	cin.getline(firstName, 200);
+    	cin.getline(firstName, 20);
     	cout << "Last Name: ";
     	cin.getline(lastName, 20);
     	cout << "Customer #" << id << "'s name is: " << firstName << " " << lastName;
